@@ -2,7 +2,7 @@
 % Please edit documentation in R/altadataconfig.R
 \name{aldatata.api_key}
 \alias{aldatata.api_key}
-\title{Query or set Altadata API key}
+\title{Set ALTADATA API key}
 \usage{
 aldatata.api_key(api_key)
 }
@@ -13,10 +13,10 @@ aldatata.api_key(api_key)
 Returns invisibly the currently set \code{api_key}.
 }
 \description{
-Query or set Altadata API key
+Set ALTADATA API key
 }
 \examples{
 \dontrun{
-aldatata.api_key('foobar')
+  aldatata.api_key('foobar')
 }
 }

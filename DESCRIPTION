@@ -1,10 +1,10 @@
 Package: altadata
 Type: Package
-Title: R package for the ALTADATA API
+Title: R Package for the ALTADATA API
 Version: 0.1.0
 Author: ALTADATA
 Maintainer: ALTADATA <contact@altadata.io>
-Description: ALTADATA R package provides convenient access to the ALTADATA API from applications written in the R language.
+Description: Functions for interacting directly with ALTADATA API.
 Imports: 
   httr (>= 0.6.1),
   jsonlite (>= 0.9.14)

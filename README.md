@@ -1,6 +1,6 @@
 # ALTADATA R Client
 
-ALTADATA R package provides convenient access to the ALTADATA API from applications written in the R language.
+[ALTADATA](https://www.altadata.io) R package provides convenient access to the ALTADATA API from applications written in the R language.
 
 ## Installation
 
