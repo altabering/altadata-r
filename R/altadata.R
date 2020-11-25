@@ -176,7 +176,7 @@ altadata.sort <- function(order_column, order_method = "asc") {
 
   condition_text <- paste(
     getOption("aldatata.condition_text"),
-    "&order_by",
+    "&order_by=",
     order_column,
     "_",
     toString(order_method),

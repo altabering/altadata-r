@@ -81,13 +81,25 @@ data <- altadata.load()
 
 > condition_value parameter of condition_in method must be Array
 
+### not in condition
+
+```r
+PRODUCT_CODE <- 'co_10_jhucs_03'
+
+altadata.get_data(product_code = PRODUCT_CODE)
+altadata.condition_not_in(condition_column = "province_state", condition_value = c("Montana", "Utah", "Alabama"))
+data <- altadata.load()
+```
+
+> condition_value parameter of condition_not_in method must be Array
+
 ### sort operation
 
 ```r
 PRODUCT_CODE <- 'co_10_jhucs_03'
 
 altadata.get_data(product_code = PRODUCT_CODE)
-altadata.sort(order_column = "mortality_rate", order_method = "desc")
+altadata.sort(order_column = "reported_date", order_method = "asc")
 data <- altadata.load()
 ```
 
@@ -127,7 +139,3 @@ altadata.condition_in(condition_column = "province_state", condition_value = c("
 altadata.select(selected_columns = c("reported_date", "province_state", "population"))
 data <- altadata.load()
 ```
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://github.com/altabering/altadata-r/blob/master/LICENSE).
