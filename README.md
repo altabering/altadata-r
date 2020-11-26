@@ -9,6 +9,7 @@ To install the [devtools](https://cran.r-project.org/package=devtools) package:
     install.packages("devtools")
     library(devtools)
     install_github("altabering/altadata-r")
+    library(altadata)
 
 To install the most recent package from CRAN type:
 
@@ -47,7 +48,6 @@ subscription_info <- altadata.list_subscription()
 You can get your data header with the code below.
 
 ```r
-client.get_header(product_code = PRODUCT_CODE)
 header_info <- altadata.get_header(product_code = 'PRODUCT_CODE')
 ```
 
