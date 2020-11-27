@@ -19,7 +19,7 @@ jobs:
     runs-on: macOS-latest
     strategy:
       matrix:
-        r-version: [3.5, 3.6]
+        r-version: [3.6]
 
     steps:
       - uses: actions/checkout@v2
@@ -37,6 +37,7 @@ jobs:
         shell: Rscript {0}
       - name: Run Unit tests
         run: |
-          Sys.setenv(TEST_API_KEY = ${{ secrets.TEST_API_KEY }})
           devtools::test()
         shell: Rscript {0}
+        env:
+          TEST_API_KEY: ${{ secrets.TEST_API_KEY }}
