@@ -1,6 +1,6 @@
 # ALTADATA R Client
 
-[![Build Actions status](https://github.com/altabering/altadata-ruby/workflows/build/badge.svg)](https://github.com/altabering/altadata-ruby/actions)
+[![Build Actions status](https://github.com/altabering/altadata-r/workflows/build/badge.svg)](https://github.com/altabering/altadata-r/actions)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/altadata)](https://cran.r-project.org/package=altadata)
 
 [ALTADATA](https://www.altadata.io) R package provides convenient access to the ALTADATA API from applications written in the R language. With this R package, developers can build applications around the ALTADATA API without having to deal with accessing and managing requests and responses.

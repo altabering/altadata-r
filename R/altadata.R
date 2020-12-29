@@ -157,7 +157,7 @@ altadata.select <- function(selected_columns) {
 #' Sort data by given column and method in the retrieve data process
 #'
 #' @param order_column column to which the order is applied
-#' @param order_method sorting method. Posibble values: asc or desc
+#' @param order_method sorting method. Possible values: asc or desc
 #'
 #' @return Nothing just set the sort parameters
 #' @export
